@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'rdvtabBarController_JM'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of rdvtabBarController_JM.'
 
 # This description is used to generate tags and improve search results.
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/jianmei/rdvtabBarController_JM'
+  s.homepage         = 'https://github.com/shijianmei/rdvtabBarController_JM'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jianmei' => 'jianmei.shi@ai-ways.com' }
-  s.source           = { :git => 'https://github.com/jianmei/rdvtabBarController_JM.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/shijianmei/rdvtabBarController_JM.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'rdvtabBarController_JM/Classes/**/*'
   
@@ -39,4 +39,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.pod_target_xcconfig = {    
+    'VALID_ARCHS' => 'arm64 armv7 armv7s arm64e'
+  }
 end

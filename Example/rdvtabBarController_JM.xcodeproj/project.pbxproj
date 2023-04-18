@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44CF0DA329EE6C12007814D6 /* RDVFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CF0D9C29EE6C12007814D6 /* RDVFirstViewController.m */; };
+		44CF0DA429EE6C12007814D6 /* RDVDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CF0D9F29EE6C12007814D6 /* RDVDetailsViewController.m */; };
+		44CF0DA529EE6C12007814D6 /* RDVThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CF0DA029EE6C12007814D6 /* RDVThirdViewController.m */; };
+		44CF0DA629EE6C12007814D6 /* RDVSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CF0DA129EE6C12007814D6 /* RDVSecondViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,7 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		45C94270E06031BCA0FA3AD8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		44CF0D9B29EE6C12007814D6 /* RDVFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVFirstViewController.h; sourceTree = "<group>"; };
+		44CF0D9C29EE6C12007814D6 /* RDVFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVFirstViewController.m; sourceTree = "<group>"; };
+		44CF0D9D29EE6C12007814D6 /* RDVThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVThirdViewController.h; sourceTree = "<group>"; };
+		44CF0D9E29EE6C12007814D6 /* RDVDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVDetailsViewController.h; sourceTree = "<group>"; };
+		44CF0D9F29EE6C12007814D6 /* RDVDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVDetailsViewController.m; sourceTree = "<group>"; };
+		44CF0DA029EE6C12007814D6 /* RDVThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVThirdViewController.m; sourceTree = "<group>"; };
+		44CF0DA129EE6C12007814D6 /* RDVSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVSecondViewController.m; sourceTree = "<group>"; };
+		44CF0DA229EE6C12007814D6 /* RDVSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVSecondViewController.h; sourceTree = "<group>"; };
+		45C94270E06031BCA0FA3AD8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4D3A544C3FD054D692BDD71C /* Pods-rdvtabBarController_JM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rdvtabBarController_JM_Tests.debug.xcconfig"; path = "Target Support Files/Pods-rdvtabBarController_JM_Tests/Pods-rdvtabBarController_JM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E3A15DCE4CF31FF55658AB1 /* Pods-rdvtabBarController_JM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rdvtabBarController_JM_Example.release.xcconfig"; path = "Target Support Files/Pods-rdvtabBarController_JM_Example/Pods-rdvtabBarController_JM_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* rdvtabBarController_JM_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rdvtabBarController_JM_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,8 +75,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DB06548660191025C155A86 /* Pods-rdvtabBarController_JM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rdvtabBarController_JM_Example.debug.xcconfig"; path = "Target Support Files/Pods-rdvtabBarController_JM_Example/Pods-rdvtabBarController_JM_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A7FDDCDCEB3CEA72645E39BA /* Pods_rdvtabBarController_JM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rdvtabBarController_JM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5E30550F3DC779738913226 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		DFCC22EF08E609CCB29C65AF /* rdvtabBarController_JM.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = rdvtabBarController_JM.podspec; path = ../rdvtabBarController_JM.podspec; sourceTree = "<group>"; };
+		C5E30550F3DC779738913226 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DFCC22EF08E609CCB29C65AF /* rdvtabBarController_JM.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = rdvtabBarController_JM.podspec; path = ../rdvtabBarController_JM.podspec; sourceTree = "<group>"; };
 		F18042BC80F96715BAEAE803 /* Pods_rdvtabBarController_JM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rdvtabBarController_JM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64606B784A7BFA7E20A30C0 /* Pods-rdvtabBarController_JM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rdvtabBarController_JM_Tests.release.xcconfig"; path = "Target Support Files/Pods-rdvtabBarController_JM_Tests/Pods-rdvtabBarController_JM_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +115,6 @@
 				4D3A544C3FD054D692BDD71C /* Pods-rdvtabBarController_JM_Tests.debug.xcconfig */,
 				F64606B784A7BFA7E20A30C0 /* Pods-rdvtabBarController_JM_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +155,14 @@
 		6003F593195388D20070C39A /* Example for rdvtabBarController_JM */ = {
 			isa = PBXGroup;
 			children = (
+				44CF0D9E29EE6C12007814D6 /* RDVDetailsViewController.h */,
+				44CF0D9F29EE6C12007814D6 /* RDVDetailsViewController.m */,
+				44CF0D9B29EE6C12007814D6 /* RDVFirstViewController.h */,
+				44CF0D9C29EE6C12007814D6 /* RDVFirstViewController.m */,
+				44CF0DA229EE6C12007814D6 /* RDVSecondViewController.h */,
+				44CF0DA129EE6C12007814D6 /* RDVSecondViewController.m */,
+				44CF0D9D29EE6C12007814D6 /* RDVThirdViewController.h */,
+				44CF0DA029EE6C12007814D6 /* RDVThirdViewController.m */,
 				6003F59C195388D20070C39A /* JMAppDelegate.h */,
 				6003F59D195388D20070C39A /* JMAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -248,6 +267,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = jianmei;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +280,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,8 +387,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CF0DA629EE6C12007814D6 /* RDVSecondViewController.m in Sources */,
+				44CF0DA429EE6C12007814D6 /* RDVDetailsViewController.m in Sources */,
 				6003F59E195388D20070C39A /* JMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JMViewController.m in Sources */,
+				44CF0DA529EE6C12007814D6 /* RDVThirdViewController.m in Sources */,
+				44CF0DA329EE6C12007814D6 /* RDVFirstViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,12 +521,16 @@
 			baseConfigurationReference = 9DB06548660191025C155A86 /* Pods-rdvtabBarController_JM_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rdvtabBarController_JM/rdvtabBarController_JM-Prefix.pch";
 				INFOPLIST_FILE = "rdvtabBarController_JM/rdvtabBarController_JM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -510,12 +541,16 @@
 			baseConfigurationReference = 5E3A15DCE4CF31FF55658AB1 /* Pods-rdvtabBarController_JM_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rdvtabBarController_JM/rdvtabBarController_JM-Prefix.pch";
 				INFOPLIST_FILE = "rdvtabBarController_JM/rdvtabBarController_JM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
