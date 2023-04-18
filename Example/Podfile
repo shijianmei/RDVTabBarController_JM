@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'rdvtabBarController_JM_Example' do
+  pod 'rdvtabBarController_JM', :path => '../'
+
+  target 'rdvtabBarController_JM_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
