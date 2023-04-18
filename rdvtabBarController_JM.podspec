@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RDVTabBarController_JM'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of RDVTabBarController_JM.'
 
 # This description is used to generate tags and improve search results.
