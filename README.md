@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'rdvtabBarController_JM'
 ```
 
-## Author
-
-jianmei, jianmei.shi@ai-ways.com
-
 ## License
 
 rdvtabBarController_JM is available under the MIT license. See the LICENSE file for more info.
