@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RDVTabBarController_JM'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of RDVTabBarController_JM.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'rdvtabBarController_JM/Classes/**/*'
+  s.source_files = 'RDVTabBarController_JM/Classes/**/*'
   
   # s.resource_bundles = {
   #   'rdvtabBarController_JM' => ['rdvtabBarController_JM/Assets/*.png']
